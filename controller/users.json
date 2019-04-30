@@ -1,0 +1,22 @@
+[
+    {
+        "user_id": "test",
+        "username": "test",
+        "password": "test@123",
+        "firstname": "John",
+        "lastname": "Doe",
+        "email": "John.doe@test.com",
+        "title": "Developer",
+        "company": "CitiusTech"
+    },
+    {
+        "user_id": "alanborder",
+        "username": "alan",
+        "password": "alan@123",
+        "firstname": "Alan",
+        "lastname": "Border",
+        "email": "alan.border@test.com",
+        "title": "Cricketer",
+        "company": "CitiusTech"
+    }
+]

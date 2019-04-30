@@ -212,7 +212,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card\"  *ngIf=\"user\">\n    <img src=\"https://cdn.icon-icons.com/icons2/603/PNG/512/face_human_blank_user_avatar_mannequin_dummy_icon-icons.com_55975.png\" alt=\"John\" style=\"width:100px;height:100px;\">\n    <h1>{{this.user.firstname}} {{this.user.lastname}}</h1>\n    <p class=\"title\">{{this.user.title}}</p>\n    <p>{{this.user.company}}</p>\n    <a href=\"#\"><i class=\"fa fa-dribbble\"></i></a> \n    <a href=\"#\"><i class=\"fa fa-twitter\"></i></a> \n    <a href=\"#\"><i class=\"fa fa-linkedin\"></i></a> \n    <a href=\"#\"><i class=\"fa fa-facebook\"></i></a> \n    <p><button (click)=\"logout()\">Logout</button></p>\n  </div>"
+module.exports = "<div class=\"card\"  *ngIf=\"user\">\n    <img src=\"https://cdn.icon-icons.com/icons2/603/PNG/512/face_human_blank_user_avatar_mannequin_dummy_icon-icons.com_55975.png\" alt=\"John\" style=\"width:100px;height:100px;\">\n    <h1>{{this.user.firstname}} {{this.user.lastname}}</h1>\n    <p class=\"title\">{{this.user.title}}</p>\n    <p class=\"email\">{{this.user.email}}</p>\n    <p>{{this.user.company}}</p>\n    <a href=\"#\"><i class=\"fa fa-dribbble\"></i></a> \n    <a href=\"#\"><i class=\"fa fa-twitter\"></i></a> \n    <a href=\"#\"><i class=\"fa fa-linkedin\"></i></a> \n    <a href=\"#\"><i class=\"fa fa-facebook\"></i></a> \n    <p><button (click)=\"logout()\">Logout</button></p>\n  </div>"
 
 /***/ }),
 
